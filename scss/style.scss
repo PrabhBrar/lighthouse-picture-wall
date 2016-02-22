@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana;
+  font-size: 1.5em;
+}
+
+#team-members {
+  clear: both;
+}
+
+#team-members .member {
+  float: left;
+  /*border: 1px solid gray;*/
+  margin: 10px;
+  padding: 6px;
+}
+
+#team-members .member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 3px solid black;
+}
+
+#team-members .member img:hover {
+  transition-delay: .3s;
+  transform: rotate(-15deg);
+}
+
+#team-members .member div.name {
+  text-align: center;  
+}
+
+$primaryColor: #FF0000;
+body {
+  h1 {
+    color: $primaryColor;
+  }
+}
